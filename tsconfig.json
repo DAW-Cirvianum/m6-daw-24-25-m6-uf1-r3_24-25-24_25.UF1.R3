@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Versió de JavaScript a generar
+    "module": "ESNext", // Sistema de mòduls
+    "moduleResolution": "node", // Resolució de mòduls
+    "outDir": "./dist", // Carpeta de sortida
+    "rootDir": "./", // Carpeta principal
+    "strict": true, // Habilita totes les verificacions de tipus estrictes
+    "esModuleInterop": true, // Compatibilitat amb mòduls CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
