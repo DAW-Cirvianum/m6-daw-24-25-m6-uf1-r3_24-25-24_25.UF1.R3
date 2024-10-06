@@ -1,10 +1,6 @@
 // tests/exercici1.test.js
 
-import {
-  getBaseCost,
-  calculateTotalCost,
-  checkCombustible,
-} from '../exercises/exercici1/index.js';
+import { getBaseCost, calculateTotalCost, checkCombustible } from '../Ex1/ex1';
 
 describe('Exercici 1: Explorador Galàctic', () => {
   // Testos per a getBaseCost
