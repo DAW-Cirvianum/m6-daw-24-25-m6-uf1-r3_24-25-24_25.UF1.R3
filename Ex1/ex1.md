@@ -1,11 +1,20 @@
-## 💫 Exercici 1: Explorador Galàctic (3 punts)
+## 💫 Exercici 1: Explorador Galàctic - TYPESCRIPT!!! (3 punts)
 
 ### Descripció:
-Ets desenvolupador per a una agència espacial encarregada de planificar missions galàctiques. Has de crear un programa que calculi el cost total d'una missió espacial basant-se en el tipus de missió i la distància a explorar. A més, hauràs de verificar si hi ha suficient combustible per completar la missió, tenint en compte el tipus de combustible i el seu preu per unitat.
+Ets desenvolupador per a una agència espacial encarregada de planificar missions galàctiques. Has de crear un programa en TypeScript que calculi el cost total d'una missió espacial basant-se en el tipus de missió i la distància a explorar. A més, hauràs de verificar si hi ha suficient combustible per completar la missió, tenint en compte el tipus de combustible i el seu preu per unitat.
+
+### Transpilador TypeScript:
+
+Per tal que els testos funcionin, hauràs de transpilar el teu fitxer TypeScript a JavaScript. Pots fer-ho executant la següent comanda des de la terminal a l'arrel del projecte:
+
+
+```bash
+npx tsc Ex1/ex1.ts
+```
 
 ### Funcions a implementar:
 
-1. **`getBaseCost(missionType)`**
+1. **`getBaseCost(missionType: string): number`**
    - **Propòsit:** Retornar el cost base de la missió segons el tipus de missió seleccionat.
    - **Tipus de missió possibles:** `exploracio`, `colonitzacio`, `mineria`.
    - **Instruccions:**
@@ -13,7 +22,7 @@ Ets desenvolupador per a una agència espacial encarregada de planificar mission
      - La funció rep `missionType` com a paràmetre i retorna el cost corresponent.
      - Si el tipus de missió no està reconegut, retorna `0`.
 
-2. **`calculateTotalCost(baseCost, distance)`**
+2. **`calculateTotalCost(baseCost: number, distance: number): number`**
    - **Propòsit:** Calcular el cost total de la missió tenint en compte la distància a explorar.
    - **Instruccions:**
      - Implementa una funció fletxa.
