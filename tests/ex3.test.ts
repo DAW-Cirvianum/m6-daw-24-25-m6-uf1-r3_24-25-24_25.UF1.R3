@@ -1,6 +1,6 @@
 // tests/Ex3.test.ts
 
-import { calculateTimeLeft } from '../Ex3/ex3';
+import { calculateTimeLeft } from '../Ex3/ex3.ts';
 
 describe('Exercici 3: Convertidor de Temps', () => {
   test('Passar una targetDate en el futur retorna temps restant', () => {
