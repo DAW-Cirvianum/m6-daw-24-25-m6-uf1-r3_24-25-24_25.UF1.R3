@@ -8,3 +8,9 @@ Hi ha una carpeta dedicada als testos. Aquesta carpeta conté els tests que pots
 
 ### IMPORTANT ⚠️
 Crea els arxius de codi font a la carpeta corresponent a cada exercici. Conserva els noms (ex1.js, ex2.js, etc.) per evitar problemes amb els testos.
+
+### QUÈ PUC CONSULTAR?
+
+* Tens el programa Dash on podràs consultar la documentació de JavaScript i TypeScript.
+* Et deixo un repositori amb documentació sobre JS que pots descarregar-te també: https://github.com/mdn/content/tree/main/files/en-us/web/javascript
+* Pots descarregar-te tots els repositoris del que hem fet a classe si vols. 
